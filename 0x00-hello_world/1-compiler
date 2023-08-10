@@ -1,2 +1,2 @@
 #!/bin/bash
-export CFILE=main.c | gcc -c $CFILE main.o
+gcc -c $CFILE main.o | cut -d. -f1 .o
