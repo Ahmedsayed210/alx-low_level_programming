@@ -1,32 +1,28 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include<stdio.h>
 
 /**
- * main - Entry point
+ * main-is the main function.
  *
- * Description: false or true validation
- *
- * Return : 0 (success)
-*/
-
+ * Return: always returns 0 or 1
+ */
 int main(void)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-	{
-		printf("%i is positive\n", n);
-	}
-	else if (n == 0)
-	{
-		printf("%i is zero\n", n);
-	}
-	else
-	{
-		printf("%i is negative\n", n);
-	}
-	return (0);
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+if (n > 0)
+{
+printf("d% is positive\n", n);
+}
+if (n == 0)
+{
+printf("d% is zero\n", n);
+}
+if (n < 0)
+{
+printf("d% is negative\n", n);
+}
+return (0);
 }
