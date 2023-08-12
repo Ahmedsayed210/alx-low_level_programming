@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include<stdio.h>
 /**
  * main-is the main function that printts all alphabets in small letters
