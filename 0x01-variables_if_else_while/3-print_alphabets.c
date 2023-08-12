@@ -9,15 +9,13 @@
 int main(void)
 {
 int c = 97;
+char a = 'A';
 for (; c <= 122; c++)
 {
 putchar(c);
 }
-int a = 65;
-for (; a <= 90; a++)
-{
+for (; a <= 'Z'; a++)
 putchar(a);
-}
 putchar(10);
 return (0);
 }
