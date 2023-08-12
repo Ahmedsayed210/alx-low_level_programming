@@ -11,7 +11,8 @@ int main(void)
 int c = 0;
 for (; c <= 9; c++)
 {
-printf("%d\n", c);
+printf("%d", c);
 }
+putchar(10);
 return (0);
 }
