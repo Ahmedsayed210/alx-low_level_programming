@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main-is the main function that prints all the numbers of base 16 in lowercase
+ * main-is the main function that prints all the numbers of base 16
  *
  * Return:returns always zero
  */
