@@ -9,17 +9,10 @@
 int main(void)
 {
 int c = 97;
-for (; c <= 100; c++)
+for (; c <= 122; c++)
 {
+if (c != 'e' && c != 'q')
 putchar(c);
-}
-for (int a = 102; a <= 112; a++)
-{
-putchar (a);
-}
-for (int s = 113; s <= 122; s++)
-{
-putchar (s);
 }
 putchar(10);
 return (0);
