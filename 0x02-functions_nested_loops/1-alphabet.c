@@ -7,15 +7,14 @@
 
 void print_alphabet(void)
 {
-	char c = 'a';
+	char a = 'a';
 
-	while (c <= 'z')
+	while (a <= 'z')
 	{
-		_putchar(c);
-		c++;
+	i	_putchar(a);
+		a++;
 
 	}
 	_putchar('\n');
 
 }
-
