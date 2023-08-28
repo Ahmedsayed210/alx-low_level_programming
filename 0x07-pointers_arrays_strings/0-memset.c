@@ -19,7 +19,7 @@ char *_memset(char *s, char b, unsigned int n)
 	while (ahmed < n)
 	{
 	s[ahmed] = b;
-	i++;
+	ahmed++;
 	}
 
 	return (s);
