@@ -17,7 +17,7 @@ void print_diagsums(int *a, int size)
 	}
 	for (menna = 0; menna < size; menna++)
 	{
-		p = (menna * size) + (size - 1 - menna);
+		doaa = (menna * size) + (size - 1 - menna);
 		r += *(a + doaa);
 	}
 	printf("%i, %i\n", l, r);
