@@ -6,18 +6,23 @@
 
 void print_binary(unsigned long int n)
 {
-	int bit = size of(n) * 8, printed_num = 0;
+	unsigned long int temp;
+	int shifts;
 
-	while (bit)
+	if (n == 0)
 	{
-		if (n & 1L << --bit)
-		{
-			_putchar('1');
-			printed_num++;
-		}
-		else if (printed_num)
-			_putchar('0');
+		printf("0");
+		return;
 	}
-	if (!printed_num)
-		_putchar('0');
+
+	for (temp = n, shifts = 0; (temp >>= 1) > 0; shifts++)
+		;
+
+	for (; shifts >= 0; shifts--)
+	{
+		if ((n >> shifts) & 1)
+			printf("1");
+		else
+			printf("0");
+	}
 }
