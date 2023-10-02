@@ -1,15 +1,15 @@
 #include "main.h"
 
-char *make_buff(char *file);
+char *make_buf(char *file);
 void end_file(int fd);
 
 /**
- * make_buff - Allocates 1024 bytes for a buffer.
+ * make_buf - Allocates 1024 bytes for a buffer.
  * @file: The name of the file buffer is storing chars for.
  *
  * Return: A pointer to the newly-allocated buffer.
  */
-char *make_buff(char *file)
+char *make_buf(char *file)
 {
 	char *buf;
 
