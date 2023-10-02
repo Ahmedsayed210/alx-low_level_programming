@@ -18,7 +18,7 @@ int _strlen(char *c)
 	return (a);
 }
 
-
+#include "main.h"
 /**
  * create_file - creates a file
  * @filename: the name of the file
