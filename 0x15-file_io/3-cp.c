@@ -1,7 +1,7 @@
 #include "main.h"
 
 char *make_buff(char *file);
-void close_file(int fd);
+void end_file(int fd);
 
 /**
  * make_buff - Allocates 1024 bytes for a buffer.
