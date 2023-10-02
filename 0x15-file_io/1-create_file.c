@@ -18,7 +18,6 @@ int _strlen(char *c)
 	return (a);
 }
 
-#include "main.h"
 /**
  * create_file - creates a file
  * @filename: the name of the file
@@ -33,6 +32,9 @@ int create_file(const char *filename, char *text_content)
 	ssize_t memory = 0, len = _strlen(text_content);
 
 	if (!filename)
+		return (-1);
+	f1 = open(filename, O_WWRONLY | O_CREAT | O_TRUNC, S_IRUSR | S_IWUSR);
+	if (f1 == -1)
 		return (-1);
 	if (len)
 		memory = write(f1, text_content, len);
