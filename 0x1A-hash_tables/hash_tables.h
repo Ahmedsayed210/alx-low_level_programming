@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _HASH_TABLES_H_
+#define _HASH_TABLES_H_
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -86,4 +86,4 @@ void shash_table_print(const shash_table_t *ht);
 void shash_table_print_rev(const shash_table_t *ht);
 void shash_table_delete(shash_table_t *ht);
 
-#endif /* MAIN_H */
+#endif /* _HASH_TABLES_H_ */
