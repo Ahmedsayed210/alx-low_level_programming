@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * hash_djb2 -  simple hash function designed for generating hash values from strings.
+ * hash_djb2 - generating hash values from strings.
  * @str: string used to generate hash value
  *
  * Return: unsigned long integer representing the computed hash value.
